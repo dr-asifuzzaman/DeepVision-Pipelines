@@ -74,3 +74,60 @@ DeepVision-Pipelines/
 ├── README.md             # main showcase page
 ├── requirements.txt
 └── LICENSE
+
+
+---
+
+## ⚙️ Example Pipelines Overview
+
+| Pipeline Type | Framework | Description | Notebook |
+|----------------|------------|--------------|-----------|
+| Image Generator | TensorFlow/Keras | Classical image loading with augmentation | `tensorflow_pipelines/image_generator.ipynb` |
+| `tf.data` Pipeline | TensorFlow | High-performance pipeline using `tf.data.Dataset` | `tensorflow_pipelines/tfdata_pipeline.ipynb` |
+| Custom DataLoader | PyTorch | Data loading and transforms using PyTorch | `pytorch_pipelines/dataloader_pipeline.ipynb` |
+| NumPy-based | NumPy | Creating and reading `.npz` dataset files | `numpy_pipelines/npz_loader.ipynb` |
+| Comparison | Mixed | Compare TensorFlow vs PyTorch pipelines | `examples/compare_pipelines.ipynb` |
+
+---
+
+## 🚀 Getting Started
+
+```bash
+# Clone this repository
+git clone https://github.com/<your-username>/DeepVision-Pipelines.git
+cd DeepVision-Pipelines
+
+# Install dependencies
+pip install -r requirements.txt
+
+
+---
+
+
+**Use when:** You want to expand your dataset artificially
+
+---
+
+## 🎓 **Quick Decision Guide**
+
+### Choose your pipeline based on:
+
+| Your Situation | Best Pipeline |
+|----------------|---------------|
+| Just starting out | `01_flow_from_directory` |
+| Have organized spreadsheet | `02_flow_from_dataframe` |
+| Small dataset, need speed | `03_npz_numpy` |
+| Using TensorFlow professionally | `04_tf_data` |
+| MASSIVE dataset (ImageNet-scale) | `05_tfrecord` |
+| Special requirements | `06_custom_generator` |
+| Using PyTorch | `07_pytorch_dataloader` |
+| Need data variety | `08_augmentation` |
+
+---
+
+## 🔄 **How They All Work Together**
+```
+1. Pick a pipeline method (folders 01-07)
+2. Add augmentation if needed (folder 08)
+3. Feed to your AI model
+4. Train and get results!
