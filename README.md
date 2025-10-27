@@ -30,7 +30,7 @@ The goal is to **help researchers and engineers understand data handling techniq
 - Well-documented notebooks and visual flow diagrams
 
 ---
-
+<!--- 
 ## 🧱 Folder Structure
 
 DeepVision-Pipelines/
@@ -77,6 +77,7 @@ DeepVision-Pipelines/
 
 
 ---
+--->
 
 ## ⚙️ Example Pipelines Overview
 
@@ -92,7 +93,6 @@ DeepVision-Pipelines/
 
 ## 🚀 Getting Started
 
-```bash
 # Clone this repository
 git clone https://github.com/<your-username>/DeepVision-Pipelines.git
 cd DeepVision-Pipelines
@@ -126,7 +126,6 @@ pip install -r requirements.txt
 ---
 
 ## 🔄 **How They All Work Together**
-```
 1. Pick a pipeline method (folders 01-07)
 2. Add augmentation if needed (folder 08)
 3. Feed to your AI model
