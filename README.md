@@ -20,7 +20,8 @@ It demonstrates multiple ways to load, preprocess, augment, and batch image data
 
 The goal is to **help researchers and engineers understand data handling techniques** that directly impact model training performance and accuracy.
 
-##### **Keywords:** `deep-learning`, `computer-vision`, `image-processing`, `tensorflow`, `pytorch`, `tfdata`, `tfrrecord`, `dataloader`, keras, `dataset-pipeline`
+##### **Keywords:** 
+`deep-learning`, `computer-vision`, `image-processing`, `tensorflow`, `pytorch`, `tfdata`, `tfrrecord`, `dataloader`, keras, `dataset-pipeline`
 ---
 
 ## Key Features
