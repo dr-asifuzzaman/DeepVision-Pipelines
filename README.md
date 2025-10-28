@@ -20,6 +20,7 @@ It demonstrates multiple ways to load, preprocess, augment, and batch image data
 
 The goal is to **help researchers and engineers understand data handling techniques** that directly impact model training performance and accuracy.
 
+**Keywords:** `deep-learning`, `computer-vision`, `image-processing`, `tensorflow`, `pytorch`, `tfdata`, `tfrrecord`, `dataloader`, keras, `dataset-pipeline`
 ---
 
 ## 🧩 Key Features
@@ -93,11 +94,11 @@ DeepVision-Pipelines/
 
 ## 🚀 Getting Started
 
-# Clone this repository
+### Clone this repository
 git clone https://github.com/<your-username>/DeepVision-Pipelines.git
 cd DeepVision-Pipelines
 
-# Install dependencies
+###  Install dependencies
 pip install -r requirements.txt
 
 
@@ -125,7 +126,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🔄 **How They All Work Together**
+###  🔄 **How They All Work Together**
 1. Pick a pipeline method (folders 01-07)
 2. Add augmentation if needed (folder 08)
 3. Feed to your AI model
