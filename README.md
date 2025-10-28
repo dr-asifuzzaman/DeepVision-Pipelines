@@ -1,4 +1,4 @@
-# 🧠 DeepVision-Pipelines
+# DeepVision-Pipelines
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange.svg)](https://www.tensorflow.org/)
@@ -8,7 +8,7 @@
 
 ---
 
-### 🔍 Description
+### Description
 > Explore diverse image dataset workflows — from generators to `tf.data` pipelines — designed for deep learning and computer vision projects.
 
 **DeepVision-Pipelines** is a curated collection of image preprocessing and dataset preparation workflows.  
@@ -20,10 +20,10 @@ It demonstrates multiple ways to load, preprocess, augment, and batch image data
 
 The goal is to **help researchers and engineers understand data handling techniques** that directly impact model training performance and accuracy.
 
-**Keywords:** `deep-learning`, `computer-vision`, `image-processing`, `tensorflow`, `pytorch`, `tfdata`, `tfrrecord`, `dataloader`, keras, `dataset-pipeline`
+##### **Keywords:** `deep-learning`, `computer-vision`, `image-processing`, `tensorflow`, `pytorch`, `tfdata`, `tfrrecord`, `dataloader`, keras, `dataset-pipeline`
 ---
 
-## 🧩 Key Features
+## Key Features
 - Multiple dataset loading strategies (`ImageDataGenerator`, `tf.data`, `DataLoader`)
 - On-the-fly data augmentation and preprocessing
 - Modular and easy-to-extend pipeline design
@@ -80,7 +80,7 @@ DeepVision-Pipelines/
 ---
 --->
 
-## ⚙️ Example Pipelines Overview
+## Example Pipelines Overview
 
 | Pipeline Type | Framework | Description | Notebook |
 |----------------|------------|--------------|-----------|
@@ -92,7 +92,7 @@ DeepVision-Pipelines/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Clone this repository
 git clone https://github.com/<your-username>/DeepVision-Pipelines.git
@@ -109,7 +109,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🎓 **Quick Decision Guide**
+## **Quick Decision Guide**
 
 ### Choose your pipeline based on:
 
@@ -126,7 +126,7 @@ pip install -r requirements.txt
 
 ---
 
-###  🔄 **How They All Work Together**
+###  **How They All Work Together**
 1. Pick a pipeline method (folders 01-07)
 2. Add augmentation if needed (folder 08)
 3. Feed to your AI model
