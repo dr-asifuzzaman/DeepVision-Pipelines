@@ -1,3 +1,42 @@
+# NumPy NPZ Pipeline
+
+Fast, simple, and perfect for small to medium datasets. When you want instant data loading without the complexity of TFRecords.
+
+## What Is NPZ?
+
+NPZ is NumPy's compressed archive format. Think of it as a ZIP file specifically designed for NumPy arrays. You save your entire dataset once, then load it almost instantly whenever needed.
+
+Instead of reading thousands of individual image files during training, you read one file. The speed difference is dramatic.
+
+## When To Use This
+
+Perfect for:
+- Datasets under 10GB that fit comfortably in RAM
+- Rapid prototyping where speed matters
+- Sharing preprocessed datasets with colleagues
+- Projects where you preprocess once, train many times
+- Eliminating file I/O bottlenecks in training
+
+Not ideal for:
+- Massive datasets (100GB+) that don't fit in memory
+- Datasets that change frequently (adding/removing images)
+- When you need on-the-fly augmentation variety
+- Production systems requiring memory efficiency
+
+## The Workflow
+
+Two-step process:
+
+**Step 1: Create NPZ** (do this once)
+- Load all images from disk
+- Preprocess and resize them
+- Save everything to a single .npz file
+
+**Step 2: Load NPZ** (do this every training session)
+- Load the entire dataset from .npz in seconds
+- Split into train/validation/test
+- Train your model
+
 
 # NPZ Image Pipeline (Modular)
 
