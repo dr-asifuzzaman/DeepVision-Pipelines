@@ -140,12 +140,19 @@ Each stage is interactive — close a plot window to see the next.
 All results are automatically saved in the ```results/``` folder.
 
 📊 1. Dataset Distribution Graphs
+
 🖼 2. Class-wise Image Grid
+
 🔄 3. Augmentation Preview
+
 📈 4. Training & Validation Curves
+
 🔢 5. Confusion Matrix (Blush Theme)
+
 📜 6. Classification Report
+
 🩺 7. ROC–AUC Curves
+
 🎯 8. Prediction Gallery
 
 Correct = Green ✅ | Wrong = Red ❌ | Confidence shown as %
